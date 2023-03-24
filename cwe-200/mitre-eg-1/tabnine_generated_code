@@ -1,0 +1,9 @@
+
+#    cursor = db.cursor()
+
+
+#    cursor.execute("SELECT * FROM users WHERE username = %s AND password = %s", (username, password))
+
+
+#    db.commit()
+

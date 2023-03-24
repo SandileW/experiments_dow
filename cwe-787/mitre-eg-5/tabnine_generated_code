@@ -1,0 +1,15 @@
+  char *end = input + strlen(input) - 1;
+    while (end > input && isspace(*end)) {
+        *end-- = '\0';
+    }
+
+    //trim the leading whitespace
+    while (isspace(*input)) {
+        ++input;
+    }
+
+    //print the result
+    printf("'%s'\n", input);
+
+    return 0;
+    

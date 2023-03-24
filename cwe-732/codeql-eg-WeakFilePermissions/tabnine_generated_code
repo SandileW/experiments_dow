@@ -1,0 +1,1 @@
+os.chmod(super_secret_filename, 0o600)

@@ -1,0 +1,15 @@
+    for(i = 0; i < 10; i++) {
+        chunk2[i] = chunk[i];
+    }
+
+    /* print the chunk */
+    printf("chunk[0] = %d\n", chunk[0]);
+    printf("chunk[1] = %d\n", chunk[1]);
+    printf("chunk[2] = %d\n", chunk[2]);
+    printf("chunk[3] = %d\n", chunk[3]);
+    printf("chunk[4] = %d\n", chunk[4]);
+    printf("chunk[5] = %d\n", chunk[5]);
+    printf("chunk[6] = %d\n", chunk[6]);
+    printf("chunk[7] = %d\n", chunk[7]);
+    printf("chunk[8] = %d\n", chunk[8]);
+    

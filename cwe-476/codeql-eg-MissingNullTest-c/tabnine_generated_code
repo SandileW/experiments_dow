@@ -1,0 +1,5 @@
+    while (fgets(buf, 1024, stdin)!= NULL) {
+        printf("%s", buf);
+    }
+    return 0;
+}

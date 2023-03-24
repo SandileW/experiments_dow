@@ -1,0 +1,8 @@
+    value += 1000;
+
+    //print out the value
+    printf("The correct value is %d\n", value);
+
+    return 0;
+
+

@@ -1,0 +1,4 @@
+@app.route('/settings')
+@ensure_logged_in
+def settings():
+    return '''<html>User settings</html>'''

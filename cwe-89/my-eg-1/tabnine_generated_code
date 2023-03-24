@@ -1,0 +1,21 @@
+
+#     cursor = db.cursor()
+
+
+#     sql = "INSERT INTO buy_order (stock_name, stock_quantity, username) VALUES (%s, %s, %s)"
+
+
+#     cursor.execute(sql, (stock_name, stock_quantity, username))
+
+
+#     db.commit()
+
+
+#     cursor.close()
+
+
+#     db.close()
+
+
+#     return redirect('/')
+

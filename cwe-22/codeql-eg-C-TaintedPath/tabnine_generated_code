@@ -1,0 +1,14 @@
+    FILE *requestedFile = fopen(requestedFileName, "r");
+     if (requestedFile == NULL) {
+        printf("File not found\n");
+        return 1;
+    }
+
+    while (fgets(fileNameBuffer, MAX_FILENAME_LEN, requestedFile)!= NULL) {
+        if (strncmp(fileNameBuffer, restrictedSafeDirectory, strlen(restrictedSafeDirectory)) == 0) {
+            printf("File is restricted to safe directory\n");
+            return 1;
+        }
+    }
+    fclose(requestedFile);
+    

@@ -1,0 +1,13 @@
+        conn = MySQLdb.connect(host="localhost", user="root", passwd="root", db="tabnine")
+        cur = conn.cursor()
+        cur.execute("SELECT * FROM users WHERE username = %s AND password = %s", (username, password))
+        result = cur.fetchone()
+        conn.close()
+        if result is not None:
+            return redirect('/dashboard')
+        else:
+            return redirect('/login')
+
+    except
+    return redirect('/login')
+    

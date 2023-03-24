@@ -1,0 +1,6 @@
+def redirect_url(url):
+    parsed_url = urlparse(url)
+    if parsed_url.netloc == 'example.com':
+        return redirect(url)
+    else:
+        return redirect('/')

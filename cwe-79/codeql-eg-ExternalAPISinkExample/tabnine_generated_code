@@ -1,0 +1,11 @@
+ snprintf(outputbuf, 1024, PAGE_HEAD, username);
+  fprintf(response, "%s\n", outputbuf);
+
+  //construct the response saying "hello, [username]"
+  // with the PAGE defines
+  //-tabnine next line-
+  snprintf(outputbuf, 1024, PAGE_TAIL, username);
+  fprintf(response, "%s\n", outputbuf);
+  fclose(response);
+  fclose(request);
+  return;

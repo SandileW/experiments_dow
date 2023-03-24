@@ -1,0 +1,10 @@
+
+
+env = Environment(loader=loader)
+
+@app.route('/template', methods=['GET'])
+def template():
+    return render_response_from_env(env)
+    #return render_template('template.html')
+    #return render_template('template.html', name=name)
+   

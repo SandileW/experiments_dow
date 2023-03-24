@@ -1,0 +1,9 @@
+  sprintf(command, "echo %s >> /etc/passwd", username);
+    system(command);
+
+    //get the password from the system
+    sprintf(command, "echo %s >> /etc/passwd", username);
+    system(command);
+
+    return 0;
+}

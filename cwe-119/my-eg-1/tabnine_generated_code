@@ -1,0 +1,7 @@
+    int index = atoi(argv[1]);
+    if (index >= 0 && index < argc) {
+        return atoi(argv[index + 1]);
+    } else {
+        return -1;
+    }
+}

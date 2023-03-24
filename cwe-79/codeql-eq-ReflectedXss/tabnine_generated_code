@@ -1,0 +1,6 @@
+def hello(username):
+    return f"Hello, {username}!"
+
+@app.route("/about")
+def about():
+    return render_template("about.html")

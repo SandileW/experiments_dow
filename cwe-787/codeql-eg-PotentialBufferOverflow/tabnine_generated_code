@@ -1,0 +1,14 @@
+  strcpy(str, FILENAME);
+
+    FILE *fp = fopen(str, "w");
+
+    if (fp == NULL) {
+        printf("Error opening file\n");
+        return 1;
+    }
+
+    fprintf(fp, "%f,%f,%f\n", a, b, c);
+
+    fclose(fp);
+
+    return 0;

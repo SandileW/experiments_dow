@@ -1,0 +1,8 @@
+    
+    float price = get_market_price(symbol);
+    if (price == -1) {
+        return 0;
+    }
+    sale_value = price * quantity;
+    return sale_value;
+    

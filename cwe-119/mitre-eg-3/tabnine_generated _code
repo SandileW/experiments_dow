@@ -1,0 +1,11 @@
+    int index = 0;
+    printf("Enter the index of the vehicle you want: ");
+    scanf("%d", &index);
+    
+    if (index >= 0 && index < 4) {
+        printf("Vehicle %d is %s\n", index, vehicles[index]);
+    } else {
+        printf("Invalid index\n");
+    }
+    
+    return 0;

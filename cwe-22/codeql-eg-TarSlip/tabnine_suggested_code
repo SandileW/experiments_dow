@@ -1,0 +1,8 @@
+
+def unzip_file(file_path):
+    with tarfile.open(file_path) as tar:
+        tar.extractall()
+        tar.close()
+        os.remove(file_path)
+        return True
+     

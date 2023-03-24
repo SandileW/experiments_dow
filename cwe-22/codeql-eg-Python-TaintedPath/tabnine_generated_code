@@ -1,0 +1,7 @@
+def img(): #-tabnine next line-
+    return os.path.join(app.root_path, 'images', request.args.get('filename'))
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+  

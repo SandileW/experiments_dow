@@ -1,0 +1,3 @@
+   return '''<html>
+    Hello, %s! <a href='./'>Home</a>
+    </html>''' % g.username

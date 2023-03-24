@@ -1,0 +1,8 @@
+def check_mod():
+    username = request.args.get('username')
+    password = request.args.get('password')
+    if username == 'tabnine' and password == 'tabnine':
+        return True
+    else:
+        return False
+        

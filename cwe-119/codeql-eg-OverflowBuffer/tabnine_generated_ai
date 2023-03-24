@@ -1,0 +1,7 @@
+    strcpy(buffer, message);
+
+    //print the buffer
+    printf("%s\n", buffer);
+
+    return 0;
+}

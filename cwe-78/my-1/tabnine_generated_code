@@ -1,0 +1,5 @@
+    sprintf(cmd, "ls %s", dirname);
+    system(cmd);
+
+    return 0;
+}

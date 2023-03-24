@@ -1,0 +1,10 @@
+
+def ping():
+    #the URL to ping is stored as a variable "url"
+    url = request.args.get('url')
+    #run the ping command using the system command "ping"
+    subprocess.call(['ping', '-c', '1', url])
+    #return the result of the ping command
+    return "pong"
+
+    

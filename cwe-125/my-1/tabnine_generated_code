@@ -1,0 +1,8 @@
+    if (i >= 0 && i < 3) {
+        printf("The value at index %d is %d\n", i, id_sequence[i]);
+    } else {
+        printf("Invalid index\n");
+    }
+
+    return 0;
+}
